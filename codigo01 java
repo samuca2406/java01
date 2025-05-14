@@ -1,0 +1,134 @@
+package main;
+import java.util.Scanner;
+public class produtos {
+	
+public void listaproduto() {
+
+	System.out.println("1 espátula de silicone");
+	System.out.println("1 colher de pau ou silicone");
+	System.out.println("2 peneiras (uma média e uma pequena)");
+	System.out.println("1 tábua de corte; (as de vidro são mais higiênicas)");
+	System.out.println("1 rolo para abrir massas (plástico ou madeira)");
+	System.out.println("1 pinça");
+	System.out.println("1 conjunto de medidores");
+	System.out.println("1 xícara de medidas");
+	System.out.println("1 saca-rolhas");
+	System.out.println("1 abridor de latas");
+	System.out.println("1 abridor de garrafas");
+	System.out.println("1 tesoura");
+	System.out.println("1 ralador");
+	System.out.println("1 funil");
+	System.out.println("1 espremedor de alho");
+	System.out.println("3 panelas (uma média, uma pequena e uma grande)");
+	System.out.println("1 panela de pressão");
+	System.out.println("1 frigideira média antiaderente com tampa");
+	System.out.println("1 leiteira ou caneca para ferver líquidos");
+	System.out.println("2 formas para pizza");
+	System.out.println("1 forma retangular");
+	System.out.println("1 forma redonda");
+	System.out.println("1 forma redonda com furo no meio");
+	System.out.println("Conjunto de facas (faca grande para corte de carnes, faca média, faca com serra para pães, faca com ponta fina para legumes)");
+	System.out.println("2 conchas (uma grande, uma média)");
+	System.out.println("1 escumadeira");
+	System.out.println("1 garfão para preparo de alimentos, especialmente carnes");
+	System.out.println("1 escorredor de macarrão");
+	System.out.println("Formas de gelo (caso sua geladeira não possua)");
+	System.out.println("2 pegadores de panela");
+	System.out.println("1 luva de silicone");
+	System.out.println("Coador de café");
+	System.out.println("1 chaleira");
+	System.out.println("-----------------");
+	System.out.println("escolha um produto");
+	
+    System.out.println("tudo certo! agora e so curtir o produto novo!");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+	
+
+	
+
+}
+
+
+package main;
+
+public class nota_fiscal {
+	 public void gerarNota() {
+	        System.out.println("Nota fiscal gerada!");
+	    }
+}
+
+
+package main;
+
+public class enviado {
+	 public void enviar() {
+	        System.out.println("Pacote enviado com sucesso!");
+	    }
+}
+
+
+package main;
+
+import java.util.Scanner;
+
+public class loguin {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        String emailcorreto = "airtom@gmail.com";
+        String senhacorreta = "123455";
+        
+        int tentativas = 0;
+        while (tentativas < 3) {
+            System.out.println("Digite o login");
+            String Login = scanner.nextLine();  
+            System.out.println("--------");
+            System.out.println("Digite a Senha");
+            String Senha = scanner.nextLine();  
+            
+            if (emailcorreto.equals(Login) && senhacorreta.equals(Senha)) {
+                System.out.println("Login realizado com sucesso");
+                return;
+            } else {
+                tentativas++;
+                System.out.println("Login e Senha estão Incorretos");
+            }
+        }
+        System.out.println("Número Máximo de tentativas atingido");
+    }
+}
+
+
+
+package main;
+public class confirmação {
+	 public void confirmar() {
+	        System.out.println("Pagamento confirmado!");
+	    }
+}
+main
+
+package main;
+import java.util.Scanner;
+public class main {
+public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+    System.out.print("vamos colocar o nome?: ");
+    String nome = scanner.nextLine(); 
+    System.out.println("Olá, " + nome + "! vamos começa as compras");
+		
+		
+
+	}
+
+}
